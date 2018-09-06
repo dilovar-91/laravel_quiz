@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-/
+
 Route::resource('/task', 'TaskController');
 Route::resource('/savol', 'SavolController');
 
